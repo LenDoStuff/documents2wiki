@@ -1,0 +1,2599 @@
+{
+  "document_version_id": "D-03-v1",
+  "fixture": "Simulated Azure Read response for the fictional engineering report. The text and word positions come from typesetting, and the embedded-text PDF was prepared locally. No service was called.",
+  "source_sha256": "db263720f2c195f83f9ab18946bf47337db1640a250c57895fdf380e6bf2c115",
+  "searchable_sha256": "849cf7f5710d8fd19c7a5d6d7829751fca2fe143b668dcb0ca5ee298000b61c9",
+  "analysis_id": "86217db25bf55bd2f33566fc13b1ac29d0ee1e83529535b31952c7ad757a95ea",
+  "analyzeResult": {
+    "apiVersion": "2024-11-30",
+    "modelId": "prebuilt-read",
+    "stringIndexType": "unicodeCodePoint",
+    "contentFormat": "text",
+    "content": "CLAIM RECORD   /   ENGINEERING\nC-1042\nEngineering report\nWater damage  /  Claim C-1042\nDOCUMENT VERSION\nD-03-v1\nDOCUMENT CONTENTS\nInspection record\n02\nOpinion and recommendation\n03\nD-03-v1   /   FICTIONAL CLAIM DOCUMENT\n01  /  03\nCLAIM RECORD   /   ENGINEERING\nC-1042\nInspection record\nI recorded the inspection on 12 May. I examined the kitchen\nceiling and the utility room above it.\nD-03-v1   /   FICTIONAL CLAIM DOCUMENT\n02  /  03\nCLAIM RECORD   /   ENGINEERING\nC-1042\nOpinion and recommendation\nOpinion\nA leak at the utility-room supply coupling is one possible\nexplanation for the pattern of moisture. My visual inspection\ndid not establish the source of the water.\nRecommendation\nI recommend a pressure test of the supply pipe and connection\nto help distinguish this possibility from another route of water entry.\nD-03-v1   /   FICTIONAL CLAIM DOCUMENT\n03  /  03\n",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "angle": 0,
+        "width": 8.5,
+        "height": 11.0,
+        "unit": "inch",
+        "spans": [
+          {
+            "offset": 0,
+            "length": 230
+          }
+        ],
+        "words": [
+          {
+            "content": "CLAIM",
+            "polygon": [
+              0.861111,
+              0.632472,
+              1.256861,
+              0.632472,
+              1.256861,
+              0.748097,
+              0.861111,
+              0.748097
+            ],
+            "span": {
+              "offset": 0,
+              "length": 5
+            }
+          },
+          {
+            "content": "RECORD",
+            "polygon": [
+              1.291611,
+              0.632472,
+              1.833236,
+              0.632472,
+              1.833236,
+              0.748097,
+              1.291611,
+              0.748097
+            ],
+            "span": {
+              "offset": 6,
+              "length": 6
+            }
+          },
+          {
+            "content": "/",
+            "polygon": [
+              1.937486,
+              0.632472,
+              1.972236,
+              0.632472,
+              1.972236,
+              0.748097,
+              1.937486,
+              0.748097
+            ],
+            "span": {
+              "offset": 15,
+              "length": 1
+            }
+          },
+          {
+            "content": "ENGINEERING",
+            "polygon": [
+              2.076486,
+              0.632472,
+              2.951611,
+              0.632472,
+              2.951611,
+              0.748097,
+              2.076486,
+              0.748097
+            ],
+            "span": {
+              "offset": 19,
+              "length": 11
+            }
+          },
+          {
+            "content": "C-1042",
+            "polygon": [
+              6.944444,
+              0.6225,
+              7.399861,
+              0.6225,
+              7.399861,
+              0.750972,
+              6.944444,
+              0.750972
+            ],
+            "span": {
+              "offset": 31,
+              "length": 6
+            }
+          },
+          {
+            "content": "Engineering",
+            "polygon": [
+              0.861111,
+              2.202611,
+              3.590083,
+              2.202611,
+              3.590083,
+              2.639417,
+              0.861111,
+              2.639417
+            ],
+            "span": {
+              "offset": 38,
+              "length": 11
+            }
+          },
+          {
+            "content": "report",
+            "polygon": [
+              3.721361,
+              2.202611,
+              5.085611,
+              2.202611,
+              5.085611,
+              2.639417,
+              3.721361,
+              2.639417
+            ],
+            "span": {
+              "offset": 50,
+              "length": 6
+            }
+          },
+          {
+            "content": "Water",
+            "polygon": [
+              0.861111,
+              2.951556,
+              1.453778,
+              2.951556,
+              1.453778,
+              3.157111,
+              0.861111,
+              3.157111
+            ],
+            "span": {
+              "offset": 57,
+              "length": 5
+            }
+          },
+          {
+            "content": "damage",
+            "polygon": [
+              1.515556,
+              2.951556,
+              2.318444,
+              2.951556,
+              2.318444,
+              3.157111,
+              1.515556,
+              3.157111
+            ],
+            "span": {
+              "offset": 63,
+              "length": 6
+            }
+          },
+          {
+            "content": "/",
+            "polygon": [
+              2.442,
+              2.951556,
+              2.503778,
+              2.951556,
+              2.503778,
+              3.157111,
+              2.442,
+              3.157111
+            ],
+            "span": {
+              "offset": 71,
+              "length": 1
+            }
+          },
+          {
+            "content": "Claim",
+            "polygon": [
+              2.627333,
+              2.951556,
+              3.195111,
+              2.951556,
+              3.195111,
+              3.157111,
+              2.627333,
+              3.157111
+            ],
+            "span": {
+              "offset": 74,
+              "length": 5
+            }
+          },
+          {
+            "content": "C-1042",
+            "polygon": [
+              3.256889,
+              2.951556,
+              3.985556,
+              2.951556,
+              3.985556,
+              3.157111,
+              3.256889,
+              3.157111
+            ],
+            "span": {
+              "offset": 80,
+              "length": 6
+            }
+          },
+          {
+            "content": "DOCUMENT",
+            "polygon": [
+              0.861111,
+              4.326917,
+              1.583236,
+              4.326917,
+              1.583236,
+              4.442542,
+              0.861111,
+              4.442542
+            ],
+            "span": {
+              "offset": 87,
+              "length": 8
+            }
+          },
+          {
+            "content": "VERSION",
+            "polygon": [
+              1.617986,
+              4.326917,
+              2.180611,
+              4.326917,
+              2.180611,
+              4.442542,
+              1.617986,
+              4.442542
+            ],
+            "span": {
+              "offset": 96,
+              "length": 7
+            }
+          },
+          {
+            "content": "D-03-v1",
+            "polygon": [
+              3.347222,
+              4.300917,
+              3.989278,
+              4.300917,
+              3.989278,
+              4.467931,
+              3.347222,
+              4.467931
+            ],
+            "span": {
+              "offset": 104,
+              "length": 7
+            }
+          },
+          {
+            "content": "DOCUMENT",
+            "polygon": [
+              0.861111,
+              4.896361,
+              1.583236,
+              4.896361,
+              1.583236,
+              5.011986,
+              0.861111,
+              5.011986
+            ],
+            "span": {
+              "offset": 112,
+              "length": 8
+            }
+          },
+          {
+            "content": "CONTENTS",
+            "polygon": [
+              1.617986,
+              4.896361,
+              2.305486,
+              4.896361,
+              2.305486,
+              5.011986,
+              1.617986,
+              5.011986
+            ],
+            "span": {
+              "offset": 121,
+              "length": 8
+            }
+          },
+          {
+            "content": "Inspection",
+            "polygon": [
+              3.347222,
+              4.870361,
+              4.170194,
+              4.870361,
+              4.170194,
+              5.037375,
+              3.347222,
+              5.037375
+            ],
+            "span": {
+              "offset": 130,
+              "length": 10
+            }
+          },
+          {
+            "content": "record",
+            "polygon": [
+              4.220389,
+              4.870361,
+              4.732083,
+              4.870361,
+              4.732083,
+              5.037375,
+              4.220389,
+              5.037375
+            ],
+            "span": {
+              "offset": 141,
+              "length": 6
+            }
+          },
+          {
+            "content": "02",
+            "polygon": [
+              7.291667,
+              4.880333,
+              7.477,
+              4.880333,
+              7.477,
+              5.0345,
+              7.291667,
+              5.0345
+            ],
+            "span": {
+              "offset": 148,
+              "length": 2
+            }
+          },
+          {
+            "content": "Opinion",
+            "polygon": [
+              3.347222,
+              5.287028,
+              3.969417,
+              5.287028,
+              3.969417,
+              5.454042,
+              3.347222,
+              5.454042
+            ],
+            "span": {
+              "offset": 151,
+              "length": 7
+            }
+          },
+          {
+            "content": "and",
+            "polygon": [
+              4.019611,
+              5.287028,
+              4.320778,
+              5.287028,
+              4.320778,
+              5.454042,
+              4.019611,
+              5.454042
+            ],
+            "span": {
+              "offset": 159,
+              "length": 3
+            }
+          },
+          {
+            "content": "recommendation",
+            "polygon": [
+              4.370972,
+              5.287028,
+              5.715569,
+              5.287028,
+              5.715569,
+              5.454042,
+              4.370972,
+              5.454042
+            ],
+            "span": {
+              "offset": 163,
+              "length": 14
+            }
+          },
+          {
+            "content": "03",
+            "polygon": [
+              7.291667,
+              5.297,
+              7.477,
+              5.297,
+              7.477,
+              5.451167,
+              7.291667,
+              5.451167
+            ],
+            "span": {
+              "offset": 178,
+              "length": 2
+            }
+          },
+          {
+            "content": "D-03-v1",
+            "polygon": [
+              0.861111,
+              10.331903,
+              1.280917,
+              10.331903,
+              1.280917,
+              10.441104,
+              0.861111,
+              10.441104
+            ],
+            "span": {
+              "offset": 181,
+              "length": 7
+            }
+          },
+          {
+            "content": "/",
+            "polygon": [
+              1.379375,
+              10.331903,
+              1.412194,
+              10.331903,
+              1.412194,
+              10.441104,
+              1.379375,
+              10.441104
+            ],
+            "span": {
+              "offset": 191,
+              "length": 1
+            }
+          },
+          {
+            "content": "FICTIONAL",
+            "polygon": [
+              1.510653,
+              10.331903,
+              2.127257,
+              10.331903,
+              2.127257,
+              10.441104,
+              1.510653,
+              10.441104
+            ],
+            "span": {
+              "offset": 195,
+              "length": 9
+            }
+          },
+          {
+            "content": "CLAIM",
+            "polygon": [
+              2.160076,
+              10.331903,
+              2.520854,
+              10.331903,
+              2.520854,
+              10.441104,
+              2.160076,
+              10.441104
+            ],
+            "span": {
+              "offset": 205,
+              "length": 5
+            }
+          },
+          {
+            "content": "DOCUMENT",
+            "polygon": [
+              2.553674,
+              10.331903,
+              3.235681,
+              10.331903,
+              3.235681,
+              10.441104,
+              2.553674,
+              10.441104
+            ],
+            "span": {
+              "offset": 211,
+              "length": 8
+            }
+          },
+          {
+            "content": "01",
+            "polygon": [
+              6.958333,
+              10.326917,
+              7.097333,
+              10.326917,
+              7.097333,
+              10.442542,
+              6.958333,
+              10.442542
+            ],
+            "span": {
+              "offset": 220,
+              "length": 2
+            }
+          },
+          {
+            "content": "/",
+            "polygon": [
+              7.166833,
+              10.326917,
+              7.201583,
+              10.326917,
+              7.201583,
+              10.442542,
+              7.166833,
+              10.442542
+            ],
+            "span": {
+              "offset": 224,
+              "length": 1
+            }
+          },
+          {
+            "content": "03",
+            "polygon": [
+              7.271083,
+              10.326917,
+              7.410083,
+              10.326917,
+              7.410083,
+              10.442542,
+              7.271083,
+              10.442542
+            ],
+            "span": {
+              "offset": 227,
+              "length": 2
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "CLAIM RECORD   /   ENGINEERING",
+            "spans": [
+              {
+                "offset": 0,
+                "length": 30
+              }
+            ]
+          },
+          {
+            "content": "C-1042",
+            "spans": [
+              {
+                "offset": 31,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Engineering report",
+            "spans": [
+              {
+                "offset": 38,
+                "length": 18
+              }
+            ]
+          },
+          {
+            "content": "Water damage  /  Claim C-1042",
+            "spans": [
+              {
+                "offset": 57,
+                "length": 29
+              }
+            ]
+          },
+          {
+            "content": "DOCUMENT VERSION",
+            "spans": [
+              {
+                "offset": 87,
+                "length": 16
+              }
+            ]
+          },
+          {
+            "content": "D-03-v1",
+            "spans": [
+              {
+                "offset": 104,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "DOCUMENT CONTENTS",
+            "spans": [
+              {
+                "offset": 112,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "Inspection record",
+            "spans": [
+              {
+                "offset": 130,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "02",
+            "spans": [
+              {
+                "offset": 148,
+                "length": 2
+              }
+            ]
+          },
+          {
+            "content": "Opinion and recommendation",
+            "spans": [
+              {
+                "offset": 151,
+                "length": 26
+              }
+            ]
+          },
+          {
+            "content": "03",
+            "spans": [
+              {
+                "offset": 178,
+                "length": 2
+              }
+            ]
+          },
+          {
+            "content": "D-03-v1   /   FICTIONAL CLAIM DOCUMENT",
+            "spans": [
+              {
+                "offset": 181,
+                "length": 38
+              }
+            ]
+          },
+          {
+            "content": "01  /  03",
+            "spans": [
+              {
+                "offset": 220,
+                "length": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "angle": 0,
+        "width": 8.5,
+        "height": 11.0,
+        "unit": "inch",
+        "spans": [
+          {
+            "offset": 230,
+            "length": 204
+          }
+        ],
+        "words": [
+          {
+            "content": "CLAIM",
+            "polygon": [
+              0.861111,
+              0.632472,
+              1.256861,
+              0.632472,
+              1.256861,
+              0.748097,
+              0.861111,
+              0.748097
+            ],
+            "span": {
+              "offset": 230,
+              "length": 5
+            }
+          },
+          {
+            "content": "RECORD",
+            "polygon": [
+              1.291611,
+              0.632472,
+              1.833236,
+              0.632472,
+              1.833236,
+              0.748097,
+              1.291611,
+              0.748097
+            ],
+            "span": {
+              "offset": 236,
+              "length": 6
+            }
+          },
+          {
+            "content": "/",
+            "polygon": [
+              1.937486,
+              0.632472,
+              1.972236,
+              0.632472,
+              1.972236,
+              0.748097,
+              1.937486,
+              0.748097
+            ],
+            "span": {
+              "offset": 245,
+              "length": 1
+            }
+          },
+          {
+            "content": "ENGINEERING",
+            "polygon": [
+              2.076486,
+              0.632472,
+              2.951611,
+              0.632472,
+              2.951611,
+              0.748097,
+              2.076486,
+              0.748097
+            ],
+            "span": {
+              "offset": 249,
+              "length": 11
+            }
+          },
+          {
+            "content": "C-1042",
+            "polygon": [
+              6.944444,
+              0.6225,
+              7.399861,
+              0.6225,
+              7.399861,
+              0.750972,
+              6.944444,
+              0.750972
+            ],
+            "span": {
+              "offset": 261,
+              "length": 6
+            }
+          },
+          {
+            "content": "Inspection",
+            "polygon": [
+              0.861111,
+              1.7425,
+              2.944861,
+              1.7425,
+              2.944861,
+              2.127917,
+              0.861111,
+              2.127917
+            ],
+            "span": {
+              "offset": 268,
+              "length": 10
+            }
+          },
+          {
+            "content": "record",
+            "polygon": [
+              3.060694,
+              1.7425,
+              4.357361,
+              1.7425,
+              4.357361,
+              2.127917,
+              3.060694,
+              2.127917
+            ],
+            "span": {
+              "offset": 279,
+              "length": 6
+            }
+          },
+          {
+            "content": "I",
+            "polygon": [
+              0.861111,
+              3.072639,
+              0.919028,
+              3.072639,
+              0.919028,
+              3.265347,
+              0.861111,
+              3.265347
+            ],
+            "span": {
+              "offset": 286,
+              "length": 1
+            }
+          },
+          {
+            "content": "recorded",
+            "polygon": [
+              0.976944,
+              3.072639,
+              1.799028,
+              3.072639,
+              1.799028,
+              3.265347,
+              0.976944,
+              3.265347
+            ],
+            "span": {
+              "offset": 288,
+              "length": 8
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              1.856944,
+              3.072639,
+              2.146528,
+              3.072639,
+              2.146528,
+              3.265347,
+              1.856944,
+              3.265347
+            ],
+            "span": {
+              "offset": 297,
+              "length": 3
+            }
+          },
+          {
+            "content": "inspection",
+            "polygon": [
+              2.204444,
+              3.072639,
+              3.142361,
+              3.072639,
+              3.142361,
+              3.265347,
+              2.204444,
+              3.265347
+            ],
+            "span": {
+              "offset": 301,
+              "length": 10
+            }
+          },
+          {
+            "content": "on",
+            "polygon": [
+              3.200278,
+              3.072639,
+              3.431944,
+              3.072639,
+              3.431944,
+              3.265347,
+              3.200278,
+              3.265347
+            ],
+            "span": {
+              "offset": 312,
+              "length": 2
+            }
+          },
+          {
+            "content": "12",
+            "polygon": [
+              3.489861,
+              3.072639,
+              3.721528,
+              3.072639,
+              3.721528,
+              3.265347,
+              3.489861,
+              3.265347
+            ],
+            "span": {
+              "offset": 315,
+              "length": 2
+            }
+          },
+          {
+            "content": "May.",
+            "polygon": [
+              3.779444,
+              3.072639,
+              4.230903,
+              3.072639,
+              4.230903,
+              3.265347,
+              3.779444,
+              3.265347
+            ],
+            "span": {
+              "offset": 318,
+              "length": 4
+            }
+          },
+          {
+            "content": "I",
+            "polygon": [
+              4.288819,
+              3.072639,
+              4.346736,
+              3.072639,
+              4.346736,
+              3.265347,
+              4.288819,
+              3.265347
+            ],
+            "span": {
+              "offset": 323,
+              "length": 1
+            }
+          },
+          {
+            "content": "examined",
+            "polygon": [
+              4.404653,
+              3.072639,
+              5.307778,
+              3.072639,
+              5.307778,
+              3.265347,
+              4.404653,
+              3.265347
+            ],
+            "span": {
+              "offset": 325,
+              "length": 8
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              5.365694,
+              3.072639,
+              5.655278,
+              3.072639,
+              5.655278,
+              3.265347,
+              5.365694,
+              3.265347
+            ],
+            "span": {
+              "offset": 334,
+              "length": 3
+            }
+          },
+          {
+            "content": "kitchen",
+            "polygon": [
+              5.713194,
+              3.072639,
+              6.373194,
+              3.072639,
+              6.373194,
+              3.265347,
+              5.713194,
+              3.265347
+            ],
+            "span": {
+              "offset": 338,
+              "length": 7
+            }
+          },
+          {
+            "content": "ceiling",
+            "polygon": [
+              0.861111,
+              3.419861,
+              1.451528,
+              3.419861,
+              1.451528,
+              3.612569,
+              0.861111,
+              3.612569
+            ],
+            "span": {
+              "offset": 346,
+              "length": 7
+            }
+          },
+          {
+            "content": "and",
+            "polygon": [
+              1.509444,
+              3.419861,
+              1.856944,
+              3.419861,
+              1.856944,
+              3.612569,
+              1.509444,
+              3.612569
+            ],
+            "span": {
+              "offset": 354,
+              "length": 3
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              1.914861,
+              3.419861,
+              2.204444,
+              3.419861,
+              2.204444,
+              3.612569,
+              1.914861,
+              3.612569
+            ],
+            "span": {
+              "offset": 358,
+              "length": 3
+            }
+          },
+          {
+            "content": "utility",
+            "polygon": [
+              2.262361,
+              3.419861,
+              2.736944,
+              3.419861,
+              2.736944,
+              3.612569,
+              2.262361,
+              3.612569
+            ],
+            "span": {
+              "offset": 362,
+              "length": 7
+            }
+          },
+          {
+            "content": "room",
+            "polygon": [
+              2.794861,
+              3.419861,
+              3.269444,
+              3.419861,
+              3.269444,
+              3.612569,
+              2.794861,
+              3.612569
+            ],
+            "span": {
+              "offset": 370,
+              "length": 4
+            }
+          },
+          {
+            "content": "above",
+            "polygon": [
+              3.327361,
+              3.419861,
+              3.894861,
+              3.419861,
+              3.894861,
+              3.612569,
+              3.327361,
+              3.612569
+            ],
+            "span": {
+              "offset": 375,
+              "length": 5
+            }
+          },
+          {
+            "content": "it.",
+            "polygon": [
+              3.952778,
+              3.419861,
+              4.114861,
+              3.419861,
+              4.114861,
+              3.612569,
+              3.952778,
+              3.612569
+            ],
+            "span": {
+              "offset": 381,
+              "length": 3
+            }
+          },
+          {
+            "content": "D-03-v1",
+            "polygon": [
+              0.861111,
+              10.331903,
+              1.280917,
+              10.331903,
+              1.280917,
+              10.441104,
+              0.861111,
+              10.441104
+            ],
+            "span": {
+              "offset": 385,
+              "length": 7
+            }
+          },
+          {
+            "content": "/",
+            "polygon": [
+              1.379375,
+              10.331903,
+              1.412194,
+              10.331903,
+              1.412194,
+              10.441104,
+              1.379375,
+              10.441104
+            ],
+            "span": {
+              "offset": 395,
+              "length": 1
+            }
+          },
+          {
+            "content": "FICTIONAL",
+            "polygon": [
+              1.510653,
+              10.331903,
+              2.127257,
+              10.331903,
+              2.127257,
+              10.441104,
+              1.510653,
+              10.441104
+            ],
+            "span": {
+              "offset": 399,
+              "length": 9
+            }
+          },
+          {
+            "content": "CLAIM",
+            "polygon": [
+              2.160076,
+              10.331903,
+              2.520854,
+              10.331903,
+              2.520854,
+              10.441104,
+              2.160076,
+              10.441104
+            ],
+            "span": {
+              "offset": 409,
+              "length": 5
+            }
+          },
+          {
+            "content": "DOCUMENT",
+            "polygon": [
+              2.553674,
+              10.331903,
+              3.235681,
+              10.331903,
+              3.235681,
+              10.441104,
+              2.553674,
+              10.441104
+            ],
+            "span": {
+              "offset": 415,
+              "length": 8
+            }
+          },
+          {
+            "content": "02",
+            "polygon": [
+              6.958333,
+              10.326917,
+              7.097333,
+              10.326917,
+              7.097333,
+              10.442542,
+              6.958333,
+              10.442542
+            ],
+            "span": {
+              "offset": 424,
+              "length": 2
+            }
+          },
+          {
+            "content": "/",
+            "polygon": [
+              7.166833,
+              10.326917,
+              7.201583,
+              10.326917,
+              7.201583,
+              10.442542,
+              7.166833,
+              10.442542
+            ],
+            "span": {
+              "offset": 428,
+              "length": 1
+            }
+          },
+          {
+            "content": "03",
+            "polygon": [
+              7.271083,
+              10.326917,
+              7.410083,
+              10.326917,
+              7.410083,
+              10.442542,
+              7.271083,
+              10.442542
+            ],
+            "span": {
+              "offset": 431,
+              "length": 2
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "CLAIM RECORD   /   ENGINEERING",
+            "spans": [
+              {
+                "offset": 230,
+                "length": 30
+              }
+            ]
+          },
+          {
+            "content": "C-1042",
+            "spans": [
+              {
+                "offset": 261,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Inspection record",
+            "spans": [
+              {
+                "offset": 268,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "I recorded the inspection on 12 May. I examined the kitchen",
+            "spans": [
+              {
+                "offset": 286,
+                "length": 59
+              }
+            ]
+          },
+          {
+            "content": "ceiling and the utility room above it.",
+            "spans": [
+              {
+                "offset": 346,
+                "length": 38
+              }
+            ]
+          },
+          {
+            "content": "D-03-v1   /   FICTIONAL CLAIM DOCUMENT",
+            "spans": [
+              {
+                "offset": 385,
+                "length": 38
+              }
+            ]
+          },
+          {
+            "content": "02  /  03",
+            "spans": [
+              {
+                "offset": 424,
+                "length": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "angle": 0,
+        "width": 8.5,
+        "height": 11.0,
+        "unit": "inch",
+        "spans": [
+          {
+            "offset": 434,
+            "length": 435
+          }
+        ],
+        "words": [
+          {
+            "content": "CLAIM",
+            "polygon": [
+              0.861111,
+              0.632472,
+              1.256861,
+              0.632472,
+              1.256861,
+              0.748097,
+              0.861111,
+              0.748097
+            ],
+            "span": {
+              "offset": 434,
+              "length": 5
+            }
+          },
+          {
+            "content": "RECORD",
+            "polygon": [
+              1.291611,
+              0.632472,
+              1.833236,
+              0.632472,
+              1.833236,
+              0.748097,
+              1.291611,
+              0.748097
+            ],
+            "span": {
+              "offset": 440,
+              "length": 6
+            }
+          },
+          {
+            "content": "/",
+            "polygon": [
+              1.937486,
+              0.632472,
+              1.972236,
+              0.632472,
+              1.972236,
+              0.748097,
+              1.937486,
+              0.748097
+            ],
+            "span": {
+              "offset": 449,
+              "length": 1
+            }
+          },
+          {
+            "content": "ENGINEERING",
+            "polygon": [
+              2.076486,
+              0.632472,
+              2.951611,
+              0.632472,
+              2.951611,
+              0.748097,
+              2.076486,
+              0.748097
+            ],
+            "span": {
+              "offset": 453,
+              "length": 11
+            }
+          },
+          {
+            "content": "C-1042",
+            "polygon": [
+              6.944444,
+              0.6225,
+              7.399861,
+              0.6225,
+              7.399861,
+              0.750972,
+              6.944444,
+              0.750972
+            ],
+            "span": {
+              "offset": 465,
+              "length": 6
+            }
+          },
+          {
+            "content": "Opinion",
+            "polygon": [
+              0.861111,
+              1.752472,
+              2.382806,
+              1.752472,
+              2.382806,
+              2.125042,
+              0.861111,
+              2.125042
+            ],
+            "span": {
+              "offset": 472,
+              "length": 7
+            }
+          },
+          {
+            "content": "and",
+            "polygon": [
+              2.494778,
+              1.752472,
+              3.210917,
+              1.752472,
+              3.210917,
+              2.125042,
+              2.494778,
+              2.125042
+            ],
+            "span": {
+              "offset": 480,
+              "length": 3
+            }
+          },
+          {
+            "content": "recommendation",
+            "polygon": [
+              3.322889,
+              1.752472,
+              6.568069,
+              1.752472,
+              6.568069,
+              2.125042,
+              3.322889,
+              2.125042
+            ],
+            "span": {
+              "offset": 484,
+              "length": 14
+            }
+          },
+          {
+            "content": "Opinion",
+            "polygon": [
+              0.861111,
+              3.030972,
+              1.648194,
+              3.030972,
+              1.648194,
+              3.223681,
+              0.861111,
+              3.223681
+            ],
+            "span": {
+              "offset": 499,
+              "length": 7
+            }
+          },
+          {
+            "content": "A",
+            "polygon": [
+              0.861111,
+              3.55875,
+              1.000069,
+              3.55875,
+              1.000069,
+              3.751458,
+              0.861111,
+              3.751458
+            ],
+            "span": {
+              "offset": 507,
+              "length": 1
+            }
+          },
+          {
+            "content": "leak",
+            "polygon": [
+              1.057986,
+              3.55875,
+              1.440069,
+              3.55875,
+              1.440069,
+              3.751458,
+              1.057986,
+              3.751458
+            ],
+            "span": {
+              "offset": 509,
+              "length": 4
+            }
+          },
+          {
+            "content": "at",
+            "polygon": [
+              1.497986,
+              3.55875,
+              1.671736,
+              3.55875,
+              1.671736,
+              3.751458,
+              1.497986,
+              3.751458
+            ],
+            "span": {
+              "offset": 514,
+              "length": 2
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              1.729653,
+              3.55875,
+              2.019236,
+              3.55875,
+              2.019236,
+              3.751458,
+              1.729653,
+              3.751458
+            ],
+            "span": {
+              "offset": 517,
+              "length": 3
+            }
+          },
+          {
+            "content": "utility-room",
+            "polygon": [
+              2.077153,
+              3.55875,
+              3.095694,
+              3.55875,
+              3.095694,
+              3.751458,
+              2.077153,
+              3.751458
+            ],
+            "span": {
+              "offset": 521,
+              "length": 12
+            }
+          },
+          {
+            "content": "supply",
+            "polygon": [
+              3.153611,
+              3.55875,
+              3.755694,
+              3.55875,
+              3.755694,
+              3.751458,
+              3.153611,
+              3.751458
+            ],
+            "span": {
+              "offset": 534,
+              "length": 6
+            }
+          },
+          {
+            "content": "coupling",
+            "polygon": [
+              3.813611,
+              3.55875,
+              4.589444,
+              3.55875,
+              4.589444,
+              3.751458,
+              3.813611,
+              3.751458
+            ],
+            "span": {
+              "offset": 541,
+              "length": 8
+            }
+          },
+          {
+            "content": "is",
+            "polygon": [
+              4.647361,
+              3.55875,
+              4.797778,
+              3.55875,
+              4.797778,
+              3.751458,
+              4.647361,
+              3.751458
+            ],
+            "span": {
+              "offset": 550,
+              "length": 2
+            }
+          },
+          {
+            "content": "one",
+            "polygon": [
+              4.855694,
+              3.55875,
+              5.203194,
+              3.55875,
+              5.203194,
+              3.751458,
+              4.855694,
+              3.751458
+            ],
+            "span": {
+              "offset": 553,
+              "length": 3
+            }
+          },
+          {
+            "content": "possible",
+            "polygon": [
+              5.261111,
+              3.55875,
+              6.025278,
+              3.55875,
+              6.025278,
+              3.751458,
+              5.261111,
+              3.751458
+            ],
+            "span": {
+              "offset": 557,
+              "length": 8
+            }
+          },
+          {
+            "content": "explanation",
+            "polygon": [
+              0.861111,
+              3.892083,
+              1.926528,
+              3.892083,
+              1.926528,
+              4.084792,
+              0.861111,
+              4.084792
+            ],
+            "span": {
+              "offset": 566,
+              "length": 11
+            }
+          },
+          {
+            "content": "for",
+            "polygon": [
+              1.984444,
+              3.892083,
+              2.227569,
+              3.892083,
+              2.227569,
+              4.084792,
+              1.984444,
+              4.084792
+            ],
+            "span": {
+              "offset": 578,
+              "length": 3
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              2.285486,
+              3.892083,
+              2.575069,
+              3.892083,
+              2.575069,
+              4.084792,
+              2.285486,
+              4.084792
+            ],
+            "span": {
+              "offset": 582,
+              "length": 3
+            }
+          },
+          {
+            "content": "pattern",
+            "polygon": [
+              2.632986,
+              3.892083,
+              3.281528,
+              3.892083,
+              3.281528,
+              4.084792,
+              2.632986,
+              4.084792
+            ],
+            "span": {
+              "offset": 586,
+              "length": 7
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [
+              3.339444,
+              3.892083,
+              3.513194,
+              3.892083,
+              3.513194,
+              4.084792,
+              3.339444,
+              4.084792
+            ],
+            "span": {
+              "offset": 594,
+              "length": 2
+            }
+          },
+          {
+            "content": "moisture.",
+            "polygon": [
+              3.571111,
+              3.892083,
+              4.427778,
+              3.892083,
+              4.427778,
+              4.084792,
+              3.571111,
+              4.084792
+            ],
+            "span": {
+              "offset": 597,
+              "length": 9
+            }
+          },
+          {
+            "content": "My",
+            "polygon": [
+              4.485694,
+              3.892083,
+              4.763403,
+              3.892083,
+              4.763403,
+              4.084792,
+              4.485694,
+              4.084792
+            ],
+            "span": {
+              "offset": 607,
+              "length": 2
+            }
+          },
+          {
+            "content": "visual",
+            "polygon": [
+              4.821319,
+              3.892083,
+              5.353819,
+              3.892083,
+              5.353819,
+              4.084792,
+              4.821319,
+              4.084792
+            ],
+            "span": {
+              "offset": 610,
+              "length": 6
+            }
+          },
+          {
+            "content": "inspection",
+            "polygon": [
+              5.411736,
+              3.892083,
+              6.349653,
+              3.892083,
+              6.349653,
+              4.084792,
+              5.411736,
+              4.084792
+            ],
+            "span": {
+              "offset": 617,
+              "length": 10
+            }
+          },
+          {
+            "content": "did",
+            "polygon": [
+              0.861111,
+              4.225417,
+              1.139028,
+              4.225417,
+              1.139028,
+              4.418125,
+              0.861111,
+              4.418125
+            ],
+            "span": {
+              "offset": 628,
+              "length": 3
+            }
+          },
+          {
+            "content": "not",
+            "polygon": [
+              1.196944,
+              4.225417,
+              1.486528,
+              4.225417,
+              1.486528,
+              4.418125,
+              1.196944,
+              4.418125
+            ],
+            "span": {
+              "offset": 632,
+              "length": 3
+            }
+          },
+          {
+            "content": "establish",
+            "polygon": [
+              1.544444,
+              4.225417,
+              2.366528,
+              4.225417,
+              2.366528,
+              4.418125,
+              1.544444,
+              4.418125
+            ],
+            "span": {
+              "offset": 636,
+              "length": 9
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              2.424444,
+              4.225417,
+              2.714028,
+              4.225417,
+              2.714028,
+              4.418125,
+              2.424444,
+              4.418125
+            ],
+            "span": {
+              "offset": 646,
+              "length": 3
+            }
+          },
+          {
+            "content": "source",
+            "polygon": [
+              2.771944,
+              4.225417,
+              3.397153,
+              4.225417,
+              3.397153,
+              4.418125,
+              2.771944,
+              4.418125
+            ],
+            "span": {
+              "offset": 650,
+              "length": 6
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [
+              3.455069,
+              4.225417,
+              3.628819,
+              4.225417,
+              3.628819,
+              4.418125,
+              3.455069,
+              4.418125
+            ],
+            "span": {
+              "offset": 657,
+              "length": 2
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              3.686736,
+              4.225417,
+              3.976319,
+              4.225417,
+              3.976319,
+              4.418125,
+              3.686736,
+              4.418125
+            ],
+            "span": {
+              "offset": 660,
+              "length": 3
+            }
+          },
+          {
+            "content": "water.",
+            "polygon": [
+              4.034236,
+              4.225417,
+              4.601528,
+              4.225417,
+              4.601528,
+              4.418125,
+              4.034236,
+              4.418125
+            ],
+            "span": {
+              "offset": 664,
+              "length": 6
+            }
+          },
+          {
+            "content": "Recommendation",
+            "polygon": [
+              0.861111,
+              5.600417,
+              2.609028,
+              5.600417,
+              2.609028,
+              5.793125,
+              0.861111,
+              5.793125
+            ],
+            "span": {
+              "offset": 671,
+              "length": 14
+            }
+          },
+          {
+            "content": "I",
+            "polygon": [
+              0.861111,
+              6.128194,
+              0.919028,
+              6.128194,
+              0.919028,
+              6.320903,
+              0.861111,
+              6.320903
+            ],
+            "span": {
+              "offset": 686,
+              "length": 1
+            }
+          },
+          {
+            "content": "recommend",
+            "polygon": [
+              0.976944,
+              6.128194,
+              2.076736,
+              6.128194,
+              2.076736,
+              6.320903,
+              0.976944,
+              6.320903
+            ],
+            "span": {
+              "offset": 688,
+              "length": 9
+            }
+          },
+          {
+            "content": "a",
+            "polygon": [
+              2.134653,
+              6.128194,
+              2.250486,
+              6.128194,
+              2.250486,
+              6.320903,
+              2.134653,
+              6.320903
+            ],
+            "span": {
+              "offset": 698,
+              "length": 1
+            }
+          },
+          {
+            "content": "pressure",
+            "polygon": [
+              2.308403,
+              6.128194,
+              3.118819,
+              6.128194,
+              3.118819,
+              6.320903,
+              2.308403,
+              6.320903
+            ],
+            "span": {
+              "offset": 700,
+              "length": 8
+            }
+          },
+          {
+            "content": "test",
+            "polygon": [
+              3.176736,
+              6.128194,
+              3.512569,
+              6.128194,
+              3.512569,
+              6.320903,
+              3.176736,
+              6.320903
+            ],
+            "span": {
+              "offset": 709,
+              "length": 4
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [
+              3.570486,
+              6.128194,
+              3.744236,
+              6.128194,
+              3.744236,
+              6.320903,
+              3.570486,
+              6.320903
+            ],
+            "span": {
+              "offset": 714,
+              "length": 2
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              3.802153,
+              6.128194,
+              4.091736,
+              6.128194,
+              4.091736,
+              6.320903,
+              3.802153,
+              6.320903
+            ],
+            "span": {
+              "offset": 717,
+              "length": 3
+            }
+          },
+          {
+            "content": "supply",
+            "polygon": [
+              4.149653,
+              6.128194,
+              4.751736,
+              6.128194,
+              4.751736,
+              6.320903,
+              4.149653,
+              6.320903
+            ],
+            "span": {
+              "offset": 721,
+              "length": 6
+            }
+          },
+          {
+            "content": "pipe",
+            "polygon": [
+              4.809653,
+              6.128194,
+              5.203403,
+              6.128194,
+              5.203403,
+              6.320903,
+              4.809653,
+              6.320903
+            ],
+            "span": {
+              "offset": 728,
+              "length": 4
+            }
+          },
+          {
+            "content": "and",
+            "polygon": [
+              5.261319,
+              6.128194,
+              5.608819,
+              6.128194,
+              5.608819,
+              6.320903,
+              5.261319,
+              6.320903
+            ],
+            "span": {
+              "offset": 733,
+              "length": 3
+            }
+          },
+          {
+            "content": "connection",
+            "polygon": [
+              5.666736,
+              6.128194,
+              6.674236,
+              6.128194,
+              6.674236,
+              6.320903,
+              5.666736,
+              6.320903
+            ],
+            "span": {
+              "offset": 737,
+              "length": 10
+            }
+          },
+          {
+            "content": "to",
+            "polygon": [
+              0.861111,
+              6.461528,
+              1.034861,
+              6.461528,
+              1.034861,
+              6.654236,
+              0.861111,
+              6.654236
+            ],
+            "span": {
+              "offset": 748,
+              "length": 2
+            }
+          },
+          {
+            "content": "help",
+            "polygon": [
+              1.092778,
+              6.461528,
+              1.486528,
+              6.461528,
+              1.486528,
+              6.654236,
+              1.092778,
+              6.654236
+            ],
+            "span": {
+              "offset": 751,
+              "length": 4
+            }
+          },
+          {
+            "content": "distinguish",
+            "polygon": [
+              1.544444,
+              6.461528,
+              2.528611,
+              6.461528,
+              2.528611,
+              6.654236,
+              1.544444,
+              6.654236
+            ],
+            "span": {
+              "offset": 756,
+              "length": 11
+            }
+          },
+          {
+            "content": "this",
+            "polygon": [
+              2.586528,
+              6.461528,
+              2.910694,
+              6.461528,
+              2.910694,
+              6.654236,
+              2.586528,
+              6.654236
+            ],
+            "span": {
+              "offset": 768,
+              "length": 4
+            }
+          },
+          {
+            "content": "possibility",
+            "polygon": [
+              2.968611,
+              6.461528,
+              3.871528,
+              6.461528,
+              3.871528,
+              6.654236,
+              2.968611,
+              6.654236
+            ],
+            "span": {
+              "offset": 773,
+              "length": 11
+            }
+          },
+          {
+            "content": "from",
+            "polygon": [
+              3.929444,
+              6.461528,
+              4.346111,
+              6.461528,
+              4.346111,
+              6.654236,
+              3.929444,
+              6.654236
+            ],
+            "span": {
+              "offset": 785,
+              "length": 4
+            }
+          },
+          {
+            "content": "another",
+            "polygon": [
+              4.404028,
+              6.461528,
+              5.110486,
+              6.461528,
+              5.110486,
+              6.654236,
+              4.404028,
+              6.654236
+            ],
+            "span": {
+              "offset": 790,
+              "length": 7
+            }
+          },
+          {
+            "content": "route",
+            "polygon": [
+              5.168403,
+              6.461528,
+              5.643194,
+              6.461528,
+              5.643194,
+              6.654236,
+              5.168403,
+              6.654236
+            ],
+            "span": {
+              "offset": 798,
+              "length": 5
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [
+              5.701111,
+              6.461528,
+              5.874861,
+              6.461528,
+              5.874861,
+              6.654236,
+              5.701111,
+              6.654236
+            ],
+            "span": {
+              "offset": 804,
+              "length": 2
+            }
+          },
+          {
+            "content": "water",
+            "polygon": [
+              5.932778,
+              6.461528,
+              6.442153,
+              6.461528,
+              6.442153,
+              6.654236,
+              5.932778,
+              6.654236
+            ],
+            "span": {
+              "offset": 807,
+              "length": 5
+            }
+          },
+          {
+            "content": "entry.",
+            "polygon": [
+              6.500069,
+              6.461528,
+              7.021111,
+              6.461528,
+              7.021111,
+              6.654236,
+              6.500069,
+              6.654236
+            ],
+            "span": {
+              "offset": 813,
+              "length": 6
+            }
+          },
+          {
+            "content": "D-03-v1",
+            "polygon": [
+              0.861111,
+              10.331903,
+              1.280917,
+              10.331903,
+              1.280917,
+              10.441104,
+              0.861111,
+              10.441104
+            ],
+            "span": {
+              "offset": 820,
+              "length": 7
+            }
+          },
+          {
+            "content": "/",
+            "polygon": [
+              1.379375,
+              10.331903,
+              1.412194,
+              10.331903,
+              1.412194,
+              10.441104,
+              1.379375,
+              10.441104
+            ],
+            "span": {
+              "offset": 830,
+              "length": 1
+            }
+          },
+          {
+            "content": "FICTIONAL",
+            "polygon": [
+              1.510653,
+              10.331903,
+              2.127257,
+              10.331903,
+              2.127257,
+              10.441104,
+              1.510653,
+              10.441104
+            ],
+            "span": {
+              "offset": 834,
+              "length": 9
+            }
+          },
+          {
+            "content": "CLAIM",
+            "polygon": [
+              2.160076,
+              10.331903,
+              2.520854,
+              10.331903,
+              2.520854,
+              10.441104,
+              2.160076,
+              10.441104
+            ],
+            "span": {
+              "offset": 844,
+              "length": 5
+            }
+          },
+          {
+            "content": "DOCUMENT",
+            "polygon": [
+              2.553674,
+              10.331903,
+              3.235681,
+              10.331903,
+              3.235681,
+              10.441104,
+              2.553674,
+              10.441104
+            ],
+            "span": {
+              "offset": 850,
+              "length": 8
+            }
+          },
+          {
+            "content": "03",
+            "polygon": [
+              6.958333,
+              10.326917,
+              7.097333,
+              10.326917,
+              7.097333,
+              10.442542,
+              6.958333,
+              10.442542
+            ],
+            "span": {
+              "offset": 859,
+              "length": 2
+            }
+          },
+          {
+            "content": "/",
+            "polygon": [
+              7.166833,
+              10.326917,
+              7.201583,
+              10.326917,
+              7.201583,
+              10.442542,
+              7.166833,
+              10.442542
+            ],
+            "span": {
+              "offset": 863,
+              "length": 1
+            }
+          },
+          {
+            "content": "03",
+            "polygon": [
+              7.271083,
+              10.326917,
+              7.410083,
+              10.326917,
+              7.410083,
+              10.442542,
+              7.271083,
+              10.442542
+            ],
+            "span": {
+              "offset": 866,
+              "length": 2
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "CLAIM RECORD   /   ENGINEERING",
+            "spans": [
+              {
+                "offset": 434,
+                "length": 30
+              }
+            ]
+          },
+          {
+            "content": "C-1042",
+            "spans": [
+              {
+                "offset": 465,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Opinion and recommendation",
+            "spans": [
+              {
+                "offset": 472,
+                "length": 26
+              }
+            ]
+          },
+          {
+            "content": "Opinion",
+            "spans": [
+              {
+                "offset": 499,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "A leak at the utility-room supply coupling is one possible",
+            "spans": [
+              {
+                "offset": 507,
+                "length": 58
+              }
+            ]
+          },
+          {
+            "content": "explanation for the pattern of moisture. My visual inspection",
+            "spans": [
+              {
+                "offset": 566,
+                "length": 61
+              }
+            ]
+          },
+          {
+            "content": "did not establish the source of the water.",
+            "spans": [
+              {
+                "offset": 628,
+                "length": 42
+              }
+            ]
+          },
+          {
+            "content": "Recommendation",
+            "spans": [
+              {
+                "offset": 671,
+                "length": 14
+              }
+            ]
+          },
+          {
+            "content": "I recommend a pressure test of the supply pipe and connection",
+            "spans": [
+              {
+                "offset": 686,
+                "length": 61
+              }
+            ]
+          },
+          {
+            "content": "to help distinguish this possibility from another route of water entry.",
+            "spans": [
+              {
+                "offset": 748,
+                "length": 71
+              }
+            ]
+          },
+          {
+            "content": "D-03-v1   /   FICTIONAL CLAIM DOCUMENT",
+            "spans": [
+              {
+                "offset": 820,
+                "length": 38
+              }
+            ]
+          },
+          {
+            "content": "03  /  03",
+            "spans": [
+              {
+                "offset": 859,
+                "length": 9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
