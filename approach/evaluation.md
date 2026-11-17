@@ -17,7 +17,17 @@ Use the same revision, manifest, original pages, questions, model, retrieval too
 | What does the file establish about the cause and the pressure test? | Attribute both possible causes. Report the recommendation and the missing result at `r3`. [Loss notice, p. 1](../examples/water-damage/sources/D-01-v1.md#pdf-page-1) · [Engineer’s opinion, p. 3](../examples/water-damage/evidence/D-03-v1/read/citations/p3-507-163-86217db25bf5.pdf#page=3) · [Test recommendation, p. 3](../examples/water-damage/evidence/D-03-v1/read/citations/p3-686-133-86217db25bf5.pdf#page=3) |
 | What date did the engineer give for the inspection? | Ask at each revision. `r3` supports 12 May. After adding the signed correction, `r4` supports 13 May and explains the earlier record. [Report, p. 2](../examples/water-damage/evidence/D-03-v1/read/citations/p2-286-98-86217db25bf5.pdf#page=2) · [Addendum, p. 1](../examples/water-damage/sources/D-04-v1.md#pdf-page-1) |
 
-For each answer record **correctness**, **whether the link opens the right version, page and source words, and whether those words support the answer**, and **whether the agent identified gaps or overstated certainty**. Record source pages opened, elapsed time and tokens alongside quality. Track the cost of building and updating the wiki separately so repeated questions can be compared fairly.
+## How to score an answer
+
+Record each dimension separately. For example, an answer saying “The engineer completed the pressure test” could link to the exact words “I recommend a pressure test”. The link would pass the citation check and the statement would fail the evidence check. [Engineering report, p. 3](../examples/water-damage/evidence/D-03-v1/read/citations/p3-686-133-86217db25bf5.pdf#page=3)
+
+| Dimension | What to record |
+| --- | --- |
+| Answer correctness | Compare the answer with the expected finding for the selected revision. Record any wrong or missing fact. |
+| Citation accuracy | Open each link and check the document version, physical page and quoted words. |
+| Support for the statement | Read the passage in context. Does it support the stated conclusion, including the author’s qualifications? |
+| Handling of gaps | For an outstanding item, does the answer identify the records checked and any unreadable or unchecked source? |
+| Effort | Record source pages opened, elapsed time and tokens. Track the cost of building and updating the wiki separately so it can be weighed against savings across repeated questions. |
 
 ## Check the writer and broaden the trial
 

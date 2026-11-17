@@ -1,14 +1,12 @@
 # Claim files and citations
 
-A **document version** identifies an immutable original. A **revision** identifies the set of documents and wiki pages available to a reader at a point in time. A **run** records the questions answered against that revision. These IDs let a handler reopen an answer after new evidence arrives.
+A **document version** identifies one logical claim record and the physical pages it occupies in an immutable source PDF. A **revision** identifies the documents and wiki pages available at a point in time. A **run** records a preset report against that revision. These IDs let a handler reopen an answer after new evidence arrives.
 
 ```text
 C-1042/
   originals/
-    D-01-v1.pdf
-    D-02-v1.pdf
-    D-03-v1.pdf
-  evidence/D-03-v1/read/
+    claim-file-v1.pdf
+  evidence/claim-file-v1/read/
     read.json          source and PDF fingerprints, Read text, page and word positions
     searchable.pdf     the PDF returned by Read and attached to the writer
     citations/         highlighted PDFs created when a passage is cited
@@ -25,11 +23,13 @@ C-1042/
         D-02-v1.md
         D-03-v1.md
   runs/run-001/
-    checklist.json
-    answers.json
+    checklist.json    preset ID, version and exact questions in run order
+    answers.json      answers, citations, gaps and review coverage
 ```
 
-The proposed `claim.json` records which original versions and extraction IDs belong to the revision, their titles, page counts, immutable paths and text in physical page order. Keep supplied receipt dates distinct from upload timestamps and dates reported inside documents. Source summaries describe the version they summarize, including when a later document corrects it.
+The proposed `claim.json` lists each logical document version, its title, source PDF, extraction ID and physical pages in that PDF. For example, if a loss notice and a work order occupy the first two pages, a three-page engineering report occupies physical pages 3–5. Its last page opens on page 5 of the searchable claim file. The existing standalone report fixture opens that same passage on page 3 of its own PDF. Keep supplied receipt dates distinct from upload timestamps and dates reported inside documents.
+
+For each preset question, save the research agent’s wiki reads, source searches, readable pages opened and pages it could not read, keyed to that question and the relevant source version. Build the report’s coverage table by matching these records to the revision inventory. An inventory entry with zero reads remains visible, including when no search touched it. [Example report coverage](../approach/agent-retrieval.md#what-the-report-shows)
 
 ## One citation from answer to source
 
@@ -66,7 +66,7 @@ For the signed correction in the example, the proposal can target the exact line
   "replace": "- **12 May** — Engineer’s site inspection, as recorded in the engineering report.[^D-03-v1-p2-inspection]",
   "text": "- **13 May** — Engineer’s site inspection. The signed addendum corrects the 12 May date in the original report.",
   "citations": [
-    {"document_version_id": "D-04-v1", "locator": "pdf-page-1", "quote": "My site diary confirms the inspection was on 13 May."},
+    {"document_version_id": "D-04-v1", "page": 1, "quote": "My site diary confirms the inspection was on 13 May."},
     {"document_version_id": "D-03-v1", "page": 2, "quote": "I recorded the inspection on 12 May."}
   ]
 }

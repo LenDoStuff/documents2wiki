@@ -1,0 +1,35 @@
+{
+  "preset_id": "subrogation",
+  "version": "starter-1",
+  "title": "Subrogation file review",
+  "questions": [
+    {
+      "id": "parties",
+      "text": "Which third parties does the file identify, what did each supply, install, operate or maintain, and when?"
+    },
+    {
+      "id": "cause",
+      "text": "What evidence supports or weakens a connection between each party’s involvement and the loss, and what other causes do the sources identify?"
+    },
+    {
+      "id": "evidence",
+      "text": "Which parts, photographs, inspection records or test results are documented, and what does the file say about their location or custody?"
+    },
+    {
+      "id": "agreements",
+      "text": "Which contracts, work orders, warranties or releases describe a party’s responsibilities, and what do the relevant passages say?"
+    },
+    {
+      "id": "amounts",
+      "text": "What loss amounts, payments, deductibles or recoveries are documented, in which currency, and which figures are still estimates?"
+    },
+    {
+      "id": "communications",
+      "text": "Who has been notified about a possible recovery, when, and what responses, commitments or deadlines appear in the correspondence?"
+    },
+    {
+      "id": "gaps",
+      "text": "Which unresolved facts or missing records matter to the recovery investigation, and what follow-up and outcomes are documented?"
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 # Possible HTTP operations
 
-This sketch connects a claims platform or browser to two operations. A completed document submission starts the writer. A question or checklist runs against the revision the handler selected. The paths below are illustrative and relative to `/api/v1/claims/{claim_id}`.
+This sketch connects a claims platform or browser to the two MVP outputs. A completed claim-file submission starts document segmentation and wiki creation. The research agent uses the published revision to generate a subrogation report. The paths below are illustrative and relative to `/api/v1/claims/{claim_id}`.
 
 | Request | Example behavior |
 | --- | --- |
-| `POST /documents` | Accept a PDF, a claim-scoped `submission_id` and an optional original receipt timestamp. A completed submission triggers Read and sends the returned searchable PDF to the writer. Save its extraction ID with the published revision. A matching retry returns the earlier result. |
+| `POST /documents` | Accept one combined claim-file PDF, a claim-scoped `submission_id` and an optional receipt timestamp. Run Read, detect logical document boundaries and pass the mapped pages to the writer. Record each logical document’s version, extraction ID and physical pages in the revision. A matching retry returns the earlier result. |
 | `GET /wiki` | Return the latest revision and its page index. |
 | `GET /revisions/{revision}/wiki/{page_id}` | Return the named wiki page from the selected revision. |
 | `GET /revisions/{revision}/documents/{version}/pages/{page}` | Return the Read text of the physical page, global word offsets, and the original and searchable PDF links. Resolve the version and extraction against this claim and revision. |
 | `GET /revisions/{revision}/documents/{version}/citations/{citation_id}` | Resolve a stored passage for this claim, revision and extraction. Serve the searchable PDF with the selected words highlighted. A page-only result links to the reading copy with its physical page number. |
-| `POST /checklist-runs` | Accept one or more ordered questions and a revision. Return one cited answer per question in the original order. |
-| `GET /checklist-runs/{run_id}` | Reopen the saved answers, revision, usage and outstanding gaps. |
+| `POST /checklist-runs` | Run the selected subrogation preset against a published revision. Save its ID, version and ordered questions, then return a report with one answer per question and review coverage for every logical document in the revision. |
+| `GET /checklist-runs/{run_id}` | Reopen the report with its revision, questions, answers, citations, gaps, usage and document coverage. |
 
-For example, the answer to a pressure-test question can separate the recommendation from the result that is missing in the reviewed file. The PDF fields below come from the worked example. The local CLI returns a bundle-relative link. The proposed service can expose the same citation through its revision-scoped route.
+For example, suppose the agent opened all three records at `r3` to answer the pressure-test question. The example below shows one answer in that report. The read history is illustrative. The PDF citation comes from the worked example. The local CLI returns a bundle-relative link. The proposed service can expose the same citation through its revision-scoped route.
 
 ```json
 {
@@ -34,10 +34,16 @@ For example, the answer to a pressure-test question can separate the recommendat
       "length": 133
     }
   ],
-  "gap": "A completed test report or measurements."
+  "gap": "A completed test report or measurements.",
+  "review": {
+    "wiki_pages_opened": ["action-plan"],
+    "documents_searched": ["D-01-v1", "D-02-v1", "D-03-v1"],
+    "source_pages_opened": {"D-01-v1": [1], "D-02-v1": [1], "D-03-v1": [1, 2, 3]},
+    "unreadable_pages": []
+  }
 }
 ```
 
-Distinguish an answer supported by the evidence (`answered`), a partial answer (`partial`), conflicting accounts (`conflicting_evidence`), a completed search that found no requested evidence (`not_found`), and a search interrupted before the relevant sources were checked (`incomplete_search`). Keep the original question text, evidence and gap with each row. Record the run’s stop reason and resource use once for the whole run. [Worked answer](../approach/agent-retrieval.md#a-recommendation-and-a-missing-result)
+Distinguish an answer supported by the evidence (`answered`), a partial answer (`partial`), conflicting accounts (`conflicting_evidence`), a completed search that found no requested evidence (`not_found`), and a search interrupted before the relevant sources were checked (`incomplete_search`). Keep the question’s own coverage with its answer. The report also shows the combined document coverage, stop reason and resource use for the run. [Report coverage and example](../approach/agent-retrieval.md#what-the-report-shows)
 
 In a rendered answer the source title, page and quoted wording use the returned link. [Engineering report, p. 3 — “I recommend a pressure test of the supply pipe and connection…”](../examples/water-damage/evidence/D-03-v1/read/citations/p3-686-133-86217db25bf5.pdf#page=3)
